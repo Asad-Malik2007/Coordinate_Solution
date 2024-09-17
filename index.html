@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Coordinates Program</title>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="heading">Disance / Midpoint</h2>
+      <h2 class="point-head" id="X1">X<small>1</small></h2>
+      <h2 class="point-head" id="X2">X<small>2</small></h2>
+      <h2 class="point-head" id="Y1">Y<small>1</small></h2>
+      <h2 class="point-head" id="Y2">Y<small>2</small></h2>
+      
+    <div class="points">
+      <p class="coordinates"><span>(</span><input type="number" class="point" id="x1"> <span class="comma">,  </span> <input type="number" class="point" id="x2"><span>)</span></p>
+      
+      <p class="coordinates"><span>(</span><input type="number" class="point" id="y1"> <span class="comma">,  </span> <input type="number" class="point" id="y2"><span>)</span></p>
+    </div>
+    <div class="ratios">
+      <p class="coordinates"><input type="number" class="point" id="p"> <span class="comma"> : </span> <input type="number" class="point" id="q"></p>
+   </div>
+
+    <button type="button"class="btn"id="calc-btn">Calculate</button>
+    <br>
+    <button id="point-ratio-btn">Show Ratios</button>
+
+    <div class="formulas">
+      <p class="formula" id="dist-for"></p>
+      <p class="formula" id="midpo-for"></p>
+      <div class="ratio-area">
+         <p class="formula" id="point-ratio"></p>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="main.js"></script>
+</html>
